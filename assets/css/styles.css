@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+}
+.materi {
+    background-color: #e0f7fa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.materi h3 {
+    margin-top: 0;
+}
+
+.materi a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #00796b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.materi a:hover {
+    background-color: #004d40;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.intro, .visi-misi, .updates, .kontak {
+    margin-bottom: 30px;
+}
+
+.intro img.profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+.visi-misi ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.updates article {
+    background-color: #e0f7fa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #00796b;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
